@@ -1,6 +1,7 @@
 package com.adaptionsoft.games.trivia.runner;
 
 import org.apache.commons.io.FileUtils;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -12,10 +13,11 @@ import java.nio.charset.Charset;
 
 import static junit.framework.Assert.assertEquals;
 
-public class GameRunnerTest {
+public class GoldenMasterTest {
 
+    @Ignore
     @Test
-    public void testName() throws Exception {
+    public void run_test() throws Exception {
 
         File testFile= new File("/home/xalo/proj/gnorsilva/code_retreats/trivia/java/test.out");
         PrintStream printStream = new PrintStream(testFile);
