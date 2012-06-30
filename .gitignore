@@ -1,4 +1,7 @@
 scala/.idea/
 scala/scala.iml
 scala/out/
-*.class
+*.class.idea/
+*.iml
+**/.idea/
+**/*.class
