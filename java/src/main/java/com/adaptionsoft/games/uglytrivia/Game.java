@@ -139,11 +139,11 @@ public class Game {
 		
 			System.out.println("Answer was corrent!!!!");
 			purses[currentPlayer]++;
-			System.out.println(players.get(currentPlayer) 
+			System.out.println(players.get(currentPlayer)
 					+ " now has "
 					+ purses[currentPlayer]
 					+ " Gold Coins.");
-			
+
 			boolean winner = didPlayerWin();
 			currentPlayer++;
 			if (currentPlayer == players.size()) currentPlayer = 0;
