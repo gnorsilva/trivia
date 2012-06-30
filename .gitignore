@@ -5,3 +5,4 @@ scala/out/
 *.iml
 **/.idea/
 **/*.class
+**/target/
